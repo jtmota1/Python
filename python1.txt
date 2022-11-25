@@ -1,0 +1,12 @@
+temperature = 25
+
+if temperature > 30:
+    print ("it's not a hot day")
+else:
+    print("It's hot")
+print ('Done')
+
+a, b = 0, 1
+while a < 1000:
+        print(a, end=',')
+        a, b = b, a+b
