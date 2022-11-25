@@ -1,10 +1,10 @@
 temperature = 25
 
 if temperature > 30:
-    print ("it's not a hot day")
+    print ("it's a hot day")
 else:
-    print("It's hot")
-print ('Done')
+    print("It's not a hot day")
+print ('Tenha um bom dia!')
 
 a, b = 0, 1
 while a < 1000:
