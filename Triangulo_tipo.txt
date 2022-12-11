@@ -1,0 +1,15 @@
+r1 = float(input('Digite um número > '))
+r2 = float (input('Digite outro número > '))
+r3 =float (input('Digite mais um número > '))
+
+if r1 < r2 + r3 and r2 < r1+r3 and r3 < r1 + r2:
+    print ('Os seguimentos acima podem formar um triângulo!')
+    if r1 == r2 == r3:
+        print ('Você formou um triângulo EQUILÁTERO')
+    elif r1 == r2 or r1 == r3:
+        print ('Você formou um triângulo ISÓCELES')
+    else:
+        print ('Você formou um triângulo ESCALENO')
+else:
+    print ('Os seguimentos não podem formar um triângulo!')
+
